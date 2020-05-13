@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "prepare": "snowpack",
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1"
+  },
+  "webDependencies": {},
+  "devDependencies": {
+    "imba": "^1.5.2",
+    "imba-rollup": "^2.0.0-alpha.42",
+    "snowpack": "^2.0.0-0"
+  }
+}
