@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "imba": "https://cdn.pika.dev/pin/imba@v2.0.0-alpha.45-Ptym1hH7QDHwLZcoo6Cm/imba.js"
+  }
+}
