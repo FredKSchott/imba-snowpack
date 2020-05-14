@@ -1,9 +1,11 @@
 Create Snowpack Imba App
-### Available SCripts
+### Available Scripts
 `npm start`
 runs `snowpack dev` along with `imbac --watch -o public/ src/`
+I'm using the imbac compiler as a work around.
 
-- [ ] Need to figure out how to load the imba compiler into snowpack. I can't get it to work.
+### TODOS
+- [ ] I need to figure out how to load the imba compiler into snowpack. I can't get it to work.
 
 ## References
 
