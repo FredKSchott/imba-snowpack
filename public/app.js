@@ -1,18 +1,18 @@
 var $t$0, $b$0, $d$0;
 require('imba/src/imba/index');
 /*
-console.log works with imbacompiler
+javascript features work just fine with imbacompiler
 */
 
 console.log("console.log");
 
 /*
-I'm currently running imbac command on npm start. That is the only way I have gotten compiler to work, but it returns error: require is not defined.
+trying to render tags returns error: require is not defined.
 */
 
 class AppRootComponent extends imba.tags.get('component','ImbaElement') {
 	init$(){
-		super.init$();return this.setAttribute('data-pzuaz7-b','');
+		super.init$();return this.setAttribute('data-f11z0r-b','');
 	}
 	
 	render(){

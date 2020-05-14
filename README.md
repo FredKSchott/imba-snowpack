@@ -1,25 +1,23 @@
-# New Project
+Create Snowpack Imba App
+### Available SCripts
+`npm start`
+runs `snowpack dev` along with `imbac --watch -o public/ src/`
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+TODO:
+[] Need to figure out how to load the imba compiler into snowpack. I can't get it to work.
 
-## Available Scripts
+## References
 
-### npm start
+Imba References
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+- [imba / packages / rollup](https://github.com/imba/imba/tree/master/packages/rollup)
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+Snowpack References
 
-### npm run build
+- [Snowpack Chat Discuss](https://www.pika.dev/npm/snowpack/discuss/179)
 
-Builds the app for production to the `build/` folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Snowpack svelte config [packages/app-script-svelte/snowpack.config.js](https://github.com/pikapkg/create-snowpack-app/blob/master/packages/app-scripts-svelte/snowpack.config.js)
+- Snowpack svelte plugin [create-snowpack-app/packages/plugin-svelte/](https://github.com/pikapkg/create-snowpack-app/tree/master/packages/plugin-svelte)
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+- babel plugin example [create-snowpack-app/packages/plugin-babel/](https://github.com/pikapkg/create-snowpack-app/blob/master/packages/plugin-babel/plugin.js)
 
-### Q: What about Eject?
-
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
