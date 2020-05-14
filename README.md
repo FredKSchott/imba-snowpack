@@ -4,7 +4,7 @@ Create Snowpack Imba App
 runs `snowpack dev` along with `imbac --watch -o public/ src/`
 
 TODO
--[] Need to figure out how to load the imba compiler into snowpack. I can't get it to work.
+-[ ] Need to figure out how to load the imba compiler into snowpack. I can't get it to work.
 
 ## References
 
