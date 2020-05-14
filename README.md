@@ -14,8 +14,13 @@ If I try to import any imba module, and use it I get the following error.
 Error: `require is not defined`
 
 ## References
+Imba snowpack references
+- [snowpack.config.js](https://github.com/ericvida/imba-snowpack/blob/master/app-template-imba/packages/app-scripts-imba/snowpack.config.js)
+- [plugin-imba/plugin.js](https://github.com/ericvida/imba-snowpack/blob/master/app-template-imba/plugin-imba/plugin.js)
+- [src/index.js](https://github.com/ericvida/imba-snowpack/blob/master/app-template-imba/src/index.js)
 
-Imba References
+Imba original References
+- [imba/rollup.js](https://github.com/imba/imba/blob/v2.0.0-alpha.45/rollup.js)
 
 - [rollup config](https://github.com/imba/imba/blob/master/packages/rollup/rollup.config.js)
 - [webpack config](https://github.com/imba/imba/blob/v2.0.0-alpha.45/webpack.config.js)

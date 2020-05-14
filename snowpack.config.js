@@ -2,7 +2,7 @@ const scripts = {
     "mount:public": "mount public --to .",
     "mount:web_modules": "mount web_modules",
     "mount:src": "mount src --to _dist_",
-    "plugin:imba": "/app-template-imba/plugin-imba/plugin.js"
+    "plugin:imba": "imba/rollup"
 };
 module.exports = {
   scripts,
