@@ -12,7 +12,7 @@ trying to render tags returns error: require is not defined.
 
 class AppRootComponent extends imba.tags.get('component','ImbaElement') {
 	init$(){
-		super.init$();return this.setAttribute('data-f11z0r-b','');
+		super.init$();return this.setAttribute('data-pzuaz7-b','');
 	}
 	
 	render(){
