@@ -1,19 +1,25 @@
-Create Snowpack Imba App
+# Create Snowpack Imba App
 ### Available Scripts
-`npm start`
-runs `snowpack dev` along with `imbac --watch -o public/ src/`
-I'm using the imbac compiler as a work around.
+```
+npm start or yarn start
+```
+The above command runs `snowpack dev` along with `imbac --watch -o public/ src/` I'm using the imbac command as a work around until I can get snowpack to do the bundling.
 
 
-### TODOS
-- [ ] I need to figure out how to load the imba compiler into snowpack. I can't get it to work.
-- [ ] Alternatively use [imba rollup plugin](https://github.com/imba/imba/tree/master/packages/rollup)
+### Todos
+- [ ] I need to figure out how to load the imba compiler into snowpack.
+- [ ] Alternatively use [imba rollup plugin](https://github.com/imba/imba/tree/master/packages/rollup). I also couldn't get that to work on first try.
+
+Maybe there needs to be some changes made to the compiler.
 
 ### Current Errors
 If I try to import any imba module, and use it I get the following error.
-Error: `require is not defined`
 
-## References
+```
+error// require is not defined
+```
+
+### References
 Imba snowpack references
 - [snowpack.config.js](https://github.com/ericvida/imba-snowpack/blob/master/app-template-imba/packages/app-scripts-imba/snowpack.config.js)
 - [plugin-imba/plugin.js](https://github.com/ericvida/imba-snowpack/blob/master/app-template-imba/plugin-imba/plugin.js)
